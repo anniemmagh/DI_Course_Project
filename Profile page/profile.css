@@ -67,6 +67,10 @@
  .img {
     width: 10rem;
  }
+
+
+
+ /* profile section styles */
  .row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
@@ -75,7 +79,7 @@
     padding: 0 4px;
   }
   
-  /* Create four equal columns that sits next to each other */
+
   .column {
     -ms-flex: 25%; /* IE10 */
     flex: 25%;
