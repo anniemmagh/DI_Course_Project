@@ -92,3 +92,57 @@
     vertical-align: middle;
     width: 100%;
   }
+  /* For screens smaller than 768px */
+@media (max-width: 767px) {
+  header .container {
+    padding: 1.2rem 5%;
+  }
+  header .container .logo {
+    font-size: 1.5rem;
+  }
+  header .container nav {
+    display: none;
+  }
+  header .container :is(.bar-icon, .close-icon) {
+    display: block;
+  }
+  header .container .overlay {
+    display: block;
+  }
+}
+
+/* For screens between 768px and 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  header .container {
+    padding: 1.2rem 5%;
+  }
+  header .container nav {
+    display: none;
+  }
+  header .container :is(.bar-icon, .close-icon) {
+    display: block;
+  }
+  header .container .overlay {
+    display: block;
+  }
+}
+
+/* For screens between 1024px and 1279px */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  header .container {
+    padding: 1.2rem 5%;
+  }
+  header .container nav {
+    gap: 0.5rem;
+  }
+}
+
+/* For screens larger than 1280px */
+@media (min-width: 1280px) {
+  header .container {
+    padding: 1.2rem 9%;
+  }
+  header .container nav {
+    gap: 1rem;
+  }
+}
